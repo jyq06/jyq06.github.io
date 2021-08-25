@@ -1,0 +1,76 @@
+
+/* 关于我们 */
+.firstpage_cu{
+    line-height: 50px;
+	font-size: 13px;
+    color: #818388;
+    border-bottom: 2px solid #f3f3f3;
+}
+.aboutus{
+    position: relative;
+    height: 691px;
+}
+.aboutus_top{
+    line-height: 64px;
+    font-size: 21px;
+    color: #252525;
+    top: 0;
+}
+.aboutus_top:hover::after{
+    content: "";
+    width: 53px;
+    height: 4px;
+    display: block;
+    background-color: #15bded;
+}
+.bottom{
+    position: absolute;
+    top: 67px;
+    margin-top: 23px;
+    width: 262;
+    height: 632px;
+}
+.bottom .left{
+    widows: 262px;
+    margin-right: 23px;
+}
+.bottom .left li{
+    width: 262px;
+    height: 49px;
+    font-size: 13px;
+    color: #252525;
+    background-color: #f2f2f2;
+    text-align: center;
+    line-height: 49px;
+    margin-bottom: 1px;
+}
+.bottom .left li:last-child{
+    margin-top: 31px;
+    width: 261px;
+	height: 261px;
+    background: url(../images/08.jpg) no-repeat;
+    background-size: contain;
+}
+.bottom .right{
+    width: 900px;
+	height: 580px;
+    margin-top: 10px; 
+}
+.right h5{
+    font-size: 16px;
+    margin-bottom: 13px;
+    color: #1a1a1a;
+}
+.right p{
+    font-size: 13px;
+    line-height: 32px;
+    text-align: justify;
+    color: #818388;
+}
+.right p:nth-child(3){
+    margin: 35px 0px 36px;
+}
+/* 底部 */
+.foot{
+    margin-top: 56px;
+}
