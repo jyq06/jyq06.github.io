@@ -1,0 +1,124 @@
+
+/* 首页新闻动态 */
+.firstpage_cu{
+    line-height: 50px;
+	font-size: 13px;
+    color: #818388;
+    border-bottom: 2px solid #f3f3f3;
+}
+/* 新闻动态 */
+.aboutus{
+    position: relative;
+    height: 680px;
+}
+.aboutus_top{
+    line-height: 64px;
+    font-size: 21px;
+    color: #252525;
+    top: 0;
+}
+.aboutus_top:hover::after{
+    content: "";
+    width: 53px;
+    height: 4px;
+    display: block;
+    background-color: #15bded;
+}
+.bottom{
+    position: absolute;
+    top: 67px;
+    margin-top: 23px;
+    height: 880px;
+}
+.bottom .left{
+    width: 262px;
+    margin-right: 23px;
+}
+.bottom .left li{
+    width: 262px;
+	height: 99px;
+    font-size: 13px;
+    color: #252525;
+    background-color: #f2f2f2;
+    text-align: center;
+    line-height: 99px;
+    margin-bottom: 1px;
+}
+.bottom .left li:last-child{
+    margin-top: 31px;
+    width: 263px;
+	height: 264px;
+    background: url(../images/news_list.png) no-repeat;
+    background-size: contain;
+}
+.bottom .right{
+    width: 913px;
+	height: 587px;
+    padding: 0px 20px;
+    box-sizing: border-box;
+}
+.right li:first-child{
+    font-size: 17px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 54px;
+    margin-top: 16px;
+}
+.right li:nth-child(2){
+	font-size: 12px;
+    color: #a5a5b1;
+    text-align: center;
+}
+.right li:nth-child(2) span{
+    margin-right: 30px;
+}
+.right li:nth-child(2) span:first-child{
+    margin-left: 32px;
+}
+.right li:nth-child(3){
+    width: 866px;
+    height: 91px;
+    background-color: #f5f5f5;
+    box-sizing: border-box;
+    padding: 10px 36px;
+    margin-top: 21px;
+    font-size: 12px;
+    color: #818388;
+    line-height: 26px;
+    text-indent: 2em;
+    text-align: justify;
+}
+.right li:nth-child(4){
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 50px;
+    color: #252525;
+    margin-top: 14px;
+    box-sizing: border-box;
+    padding-left: 36px;
+}
+.right li:nth-child(5){
+    box-sizing: border-box;
+    padding: 0px 10px;
+    font-size: 13px;
+    color: #606369;
+    line-height: 28px;
+    text-indent: 2em;
+}
+.right .right_item{
+    font-size: 12px;
+    margin-top: 59px;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+.right .right_item:last-child{
+    margin-top: 15px;
+}
+.right .right_item a{
+    color: #818388;
+    margin-right: 9px;
+}
+/* 底部 */
+.foot{
+    margin-top: 70px;
+}

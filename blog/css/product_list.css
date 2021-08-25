@@ -1,0 +1,135 @@
+
+/* 产品展示*/
+.firstpage_cu{
+    line-height: 50px;
+	font-size: 13px;
+    color: #818388;
+    border-bottom: 2px solid #f3f3f3;
+}
+.aboutus{
+    position: relative;
+    height: 1631px;
+}
+.aboutus_top{
+    line-height: 64px;
+    font-size: 21px;
+    color: #252525;
+    top: 0;
+}
+.aboutus_top:hover::after{
+    content: "";
+    width: 53px;
+    height: 4px;
+    display: block;
+    background-color: #15bded;
+}
+.bottom{
+    position: absolute;
+    top: 67px;
+    margin-top: 23px;
+    width: 262;
+    height: 632px;
+}
+.bottom .left{
+    widows: 262px;
+    margin-right: 23px;
+}
+.bottom .left li{
+    width: 262px;
+    height: 49px;
+    font-size: 13px;
+    color: #252525;
+    background-color: #f2f2f2;
+    text-align: center;
+    line-height: 49px;
+    margin-bottom: 1px;
+}
+.bottom .left li:last-child{
+    margin-top: 31px;
+    width: 263px;
+	height: 263px;
+    background: url(../images/02_wqpl.jpg) no-repeat;
+    background-size: contain;
+}
+.bottom .right{
+    width: 909px;
+    height: 1526px;
+    margin-top: 13px;
+}
+.bottom .right li{
+    box-sizing: border-box;
+    width: 284px;
+    height: 333px;
+    float: left;
+    margin-bottom: 29px;
+    padding: 16px 16px 0px;
+    
+}
+.bottom .right li:nth-child(3n-1){
+    margin: 0px 28px;
+}
+.bottom .right li>img{
+    width: 251px;
+	height: 250px;
+}
+.bottom .right li p{
+    font-size: 13px;
+    color: #3f3e45;
+    line-height: 40px;
+}
+.bottom .right li p a{
+    color: #3f3e45;
+    text-decoration: none;
+}
+.bottom .right li p a:hover{
+    color: green;
+}
+.bottom .right li p:last-child{
+    font-size: 14px;
+    line-height: 16px;
+
+}
+.bottom .right li p>span{
+    font-size: 14px;
+    color: #a5a5b1;
+    margin-right: 2px;
+}
+.bottom .right li:last-child{
+    width: 909px;
+    height: 80px;
+    padding-top:54px;
+}
+.bottom .right>li:nth-child(13){
+    color: #606369;
+    font-size: 13px;
+    text-align: center;
+}
+.bottom .right>li:nth-child(13) span{
+    display: inline-block;
+    width: 14px;
+    height: 17px;
+    border: 1px solid #e5e5e5;
+    margin-right: 3px;
+    vertical-align: middle;
+}
+.bottom .right>li:nth-child(13) span:first-child{
+    margin-left: 12px;
+}
+.bottom .right>li:nth-child(13) input{
+    border: none;
+    border: 1px solid #e5e5e5;
+    font-size: 12px;
+    margin-top:0px;
+    vertical-align: middle;
+}
+.bottom .right>li:nth-child(13) span:hover{
+    border: 1px solid transparent;
+    color: #ec0000;
+    width: 14px;
+    height: 17px;
+}
+/* 底部 */
+.foot{
+    margin-top: 62px;
+}
+
