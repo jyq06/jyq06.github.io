@@ -1,0 +1,160 @@
+/* 头部 */
+.head .head_left{
+    margin-left:265px;
+}
+.head .header img{
+    width: 258px;
+	height: 112px;
+}
+.nav{
+    box-shadow: 0px 1px 8px 0px rgba(146, 146, 146, 0.4);
+}
+.nav>ul{
+    box-sizing: border-box;
+    padding-left: 282px;
+}
+.nav>ul>li{
+    float: left;
+}
+.nav>ul>li:first-child{
+    width: 680px;
+    font-size: 30px;
+    line-height: 85px;
+    color: #666666;
+}
+.nav>ul>li:last-child{
+    margin-top: 46px;
+	font-size: 24px;
+    color: #a6a6a6;
+}
+.nav>ul>li:last-child>a{
+    text-decoration: none;
+    color: #666666;
+}
+/* 注册信息区域 */
+.register_info{
+    height: 657px ;
+    margin-bottom: 38px;
+    /* background-color: rgb(146, 228, 146); */
+    text-align: center;
+    padding-top: 53px;
+    box-sizing: border-box;
+}
+.register_info form{
+    display: inline-block;
+    width: 450px;
+    height: 603px;
+    /* background-color: rgb(80, 200, 230); */
+}
+.register_info form ul li{
+    box-sizing: border-box;
+    height: 88px;
+    /* background-color: rgb(219, 142, 226); */
+    margin-bottom: 3px;
+    text-align:left;
+}
+register_info form ul li input{
+    text-align: left;
+}
+.register_info form ul li>div{
+    height: 44px;
+    box-sizing: border-box;
+    border: solid 1px #d9d9d9;
+    line-height: 32px;
+    font-size: 22px;
+    color: #666666;
+    padding-left: 11px;
+    padding-top: 4px;
+}
+.register_info form ul li>div>input{
+    text-align: center;
+    font-size: 16px;
+    line-height: 32px;
+    color: #cccccc;
+    border: none;
+    outline: none;
+    margin-left: 41px;
+    height: 34px;
+    padding-left:  4px;;
+    vertical-align: top;
+}
+.register_info form ul li>p{
+    height: 44px;
+    /* background-color: pink; */
+    line-height: 44px;
+    color: red;   
+    padding-left: 16px; 
+}
+.register_info form ul li>div>.verificationCode{
+    display: inline-block;
+    width: 93px;
+    height: 34px;
+    background-color: #1a83e5;
+    vertical-align: top;
+    text-align: center;
+    color: #ffffff;
+    font-size: 28px;
+    margin-left: 22px;
+}
+.register_info form ul li>div>.phone_vc{
+    background-color: #e6e6e6;
+    font-size: 16px;
+    color: #4d4d4d;
+    margin-left: 21px;
+}
+.register_info form ul li.phone_code{
+    height: 44px;
+}
+.register_info form ul li.phone_code>div>input{
+    margin-left: 20px;
+}
+.register_info form ul li.read{
+    padding: 0px;
+    font-size: 14px;
+    color: #4d4d4d;
+    height: 25px;
+    line-height: 25px;
+    margin-bottom: 33px;
+}
+.register_info form ul li.read>input{
+    width: 12px;
+	height: 12px;
+	border: solid 1px #e6e6e6;
+}
+.register_info form ul li.read>span{
+	color: #ff6600;
+}
+.register_info form ul li:last-child{
+    height: 44px;
+    font-size: 28px;
+}
+.register_info form ul li:last-child>input{
+    width: 100%;
+    height: 44px;
+    background-color: #ff6600;
+    border: none;
+    color: #ffffff;
+}
+/* foot区域 */
+.foot{
+    height: 140px;
+}
+.foot .foot_total{
+    height: 78px;
+    border-top: 2px solid #e6e6e6;
+    text-align: center;
+}
+.foot .foot_total>li:first-child{
+margin:26px 0px 16px
+}
+.foot .foot_bottom1 li{
+     text-align: center;
+     display: inline-block;
+     width: 89px;
+     border-right: 1px solid;
+     font-size: 14px;
+     color: #333333;
+ }
+ .foot .foot_bottom1 li:nth-child(2){
+     width: 160px;
+ }

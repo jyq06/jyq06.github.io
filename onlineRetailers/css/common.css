@@ -1,0 +1,39 @@
+/* 版心 */
+.center{
+    width: 1200px;
+    margin: 0 auto;
+}
+/* 左浮动 */
+.fl{
+    float: left;
+}
+/* 右浮动 */
+.fr{
+    float: right;
+}
+/* 清楚浮动 */
+.clear{
+    clear: both;
+}
+/* 伪元素清楚浮动 */
+.clearfix::after{
+    content: "";
+    height: 0;
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+/* 标题span */
+.title_span{
+    display: inline-block;
+    width: 42px;
+    height: 44px;
+    background-color: #ff6600;
+    margin-right: 4px;
+    margin-left: -2px;
+    color: #fff;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}

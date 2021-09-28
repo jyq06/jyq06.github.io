@@ -1,0 +1,437 @@
+/* banner轮播图区域 */
+/* 覆盖图片 */
+#bannerBox .btnleft,.btnright{
+    background-image: url(../img/nav.png);
+}
+/* 修改控制按钮的字体颜色 */
+#bannerBox .controls li{
+    color: #fff;
+}
+/* 修改pptbox变成行内块 */
+.banner #bannerBox{
+    display: inline-block;
+}
+/* banner 右边手风琴 */
+.banner_right{
+    width: 200px;
+    height: 400px;
+}
+.banner_right li{
+	width: 200px;
+    height: 43px;
+	/* background-color: #ffffff; */
+    box-shadow: 0px 1px 0px 0px	#b3b3b3;
+    overflow: hidden;
+}
+.banner_right li p:first-child{
+    text-align: right;
+}
+.banner_right li p>span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #b3b3b3;
+}
+.banner_right li p>span.br_color{
+    background-color: #ff6600;
+}
+.banner_right li img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+.banner_right li p:last-child{
+    display: inline-block;
+    width: 96px;
+    height: 48px;
+    font-size: 14px;
+    color: #333333;
+    vertical-align: top;
+}
+
+.banner h2{
+    display: inline-block;
+    width: 200px;
+    height: 30px;
+    background-color: #93d46f;
+    padding-left: 9px;
+    color: #ffffff;
+    line-height: 30px;
+    box-sizing: border-box;
+}
+/* 显示效果 */
+.banner_right li.active{
+	height: 141px;
+}
+
+/* 底部 */
+.banner_advertisement{
+    height: 90px;
+    margin-top: 7px;
+}
+.banner_advertisement>img{
+    height: 90px;
+    width: 1200px;  
+}
+/* 图书折扣区域 */
+.book{
+    margin-top: 25px;
+}
+.book .bookTop{
+    box-sizing: border-box;
+    height: 53px;
+    border-bottom: 6px solid #ff6600;
+}
+.book .bookTop li{
+    width: 220px;
+    background-color: #ff6600;
+    font-size: 24px;
+    height: 53px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 47px;
+}
+.book .bookBottom{
+    height: 258px;
+    box-sizing: border-box;
+    padding: 0px 21px;
+}
+.book .bookBottom li{
+    width: 210px;
+    height: 258px;
+    float: left;
+    margin-right: 27px;
+}
+.book .bookBottom li:nth-child(5n){
+    margin-right: 0px;
+}
+.book .bookBottom li:last-child{
+    margin-right: 0px;
+}
+.bookBottom li>img:nth-child(1){
+    margin: 7px 30px 0px;
+}
+.bookBottom li>p{
+    font-size: 14px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    line-height: 22px;
+}
+.bookBottom li>span{
+    font-size: 24px;
+}
+.bookBottom li>p:nth-of-type(1){ 
+    color: #333333;
+}
+.bookBottom .lB_color{
+    color: #f4290d;
+}
+.bookBottom li>span:nth-of-type(1){
+    padding-left: 10px;
+    margin-right: 22px;
+}
+.bookBottom li>span:nth-of-type(2){
+    color: #fff;
+}
+.bookBottom li:hover{
+    background-color: #f2f2f2;
+}
+.bookBottom li:hover>span:nth-of-type(2){
+    color: #c0c0c0;
+    text-decoration: line-through;
+}
+/* 新书上架区域 */
+.newbook {
+    height: 542px;
+    margin-top: 31px;
+}
+.newbook_left{
+    width: 905px;
+    height: 542px;
+}
+.newbook_left h4{
+    box-sizing: border-box;
+    height: 44px;
+    border-bottom: 6px solid #ff6600;
+    line-height: 44px;
+    font-size: 22px;
+	font-weight: normal;
+	color: #333333;
+}
+.newbook_left h4>span{
+    display: inline-block;
+    width: 42px;
+    height: 44px;   
+    background-color: #ff6600;
+    color: #ffffff;
+    font-size: 28px;
+    text-align: center;
+}
+.newbook .nbl_book{
+    height: 500px;
+    padding: 0px 3px;
+    border: 2px solid;
+    border-color: transparent #e6e6e6 #e6e6e6 #e6e6e6;
+    box-sizing: border-box;
+
+}
+.newbook .nbl_book>li{
+    width: 170px;
+    height: 220px;
+    float: left;
+    margin: 18px 11px 0px 0px;
+    box-sizing: border-box;
+    padding-left:10px;
+}
+.newbook .nbl_book>li:nth-child(5n){
+    margin-right: 0px;
+}
+.newbook .nbl_book>li.nb_marginttop{
+    margin-top: 24px;
+}
+.newbook .nbl_book>li>p{
+    font-size: 14px;
+    line-height: 24px;
+}
+.newbook .nbl_book>liimg{
+    width: 150px;
+    height: 150px;
+}
+.newbook .nbl_book>li>p:nth-of-type(1){
+    color: #333333;
+}
+.newbook .nbl_book>li>p:nth-of-type(2){
+    color: #808080;
+}
+.newbook .nbl_book>li>span{
+    font-size: 18px;
+    margin-right: 11px;
+    color: #b3b3b3;
+    text-decoration: line-through;
+}
+.newbook .nbl_book>li>span:nth-of-type(1){
+    color: #f91616;
+    text-decoration: none;
+}
+/* book右边手风琴效果 */
+.newbook .book_right{
+    width: 284px;
+    height: 504px;
+    box-sizing: border-box;
+    margin-top: 40px;
+    border: solid 2px #e6e6e6;
+}
+.newbook .book_right>h2{
+    font-size: 24px;
+    color: #808080;
+    text-align: center;
+    line-height: 32px;
+}
+.newbook .book_right ul li{
+    margin-top: 10px;
+}
+.newbook .book_right ul li>span{
+    font-size: 16px;
+    color: #4d4d4d;
+    position: relative;
+    float: left;
+    position: relative;
+    margin-right: 18px;
+}
+.newbook .book_right ul li>h3{
+    font-size: 16px;
+    color: #4d4d4d;
+    float: left;
+    border-bottom:2px solid #e6e6e6;
+    padding-bottom: 15px;
+    width: 251px;
+}
+.newbook .book_right ul li>div{
+    margin-left: 18px;
+    display: none;
+    height: 140px;
+    border-bottom:2px solid #e6e6e6;
+    padding-bottom: 15px;
+}
+.newbook .book_right ul li>div img{
+    float: left;
+}
+.newbook .book_right ul li>div p{
+    float: left;
+    width: 126px;
+    height: 115px;
+    font-size: 14px;
+    color: #404040;
+}
+/* 显示效果 */
+.newbook .book_right ul li.book_show>div{  
+    display: block;
+}
+.newbook .book_right ul li.book_show span{
+    color: #ff2315;
+}
+.newbook .book_right ul li h3.title_hidden{
+    display: none;
+}
+/* 独家提供区域 */
+/* 独家提供导航区域 */
+.soloapply{
+    margin-top: 52px;
+    height: 562px;
+}
+.soloapply .soloapply_top{
+    height: 44px;
+    box-sizing: border-box;
+    border-bottom: 6px solid  #ff6600;
+    text-align: center;
+    line-height: 44px;
+    position: relative;
+}
+.soloapply .soloapply_top>li{
+    float: left;
+    width: 98px;
+    height: 40px;
+    font-size: 18px;
+}
+.soloapply .soloapply_top>li:first-child{
+    margin-right: 790px;
+}
+.soloapply .soloapply_top>li:first-child{
+    float: left;
+    font-size: 22px;
+    width: 115px;
+}
+.soloapply .soloapply_top>li>div{
+    height: 518px;
+    width: 1200px;
+    background-color: pink;
+    position: absolute;
+    left: 0px;
+    top: 44px;
+    display: none;
+}
+/* 独家提供下面区域 */
+.soloapply .soloapply_bottom{
+    box-sizing: border-box;
+    height: 526px;
+    padding-left: 55px;
+}
+.soloapply .soloapply_bottom li:nth-child(5n){
+    margin-right: 20px;
+}
+.soloapply .soloapply_bottom li{
+    margin-right: 20px;
+}
+.soloapply .soloapply_bottom li:nth-child(6n){
+    margin-right: 0px;
+}
+.soloapply .soloapply_bottom li>img{
+    /* 轮播图设置 的是图片的宽高，而整个ul.soloapply_bottom在
+        轮播图中，并且ul中右图片，所以设置最大权重，避免被图片被轮播图改变
+    */
+    width: 150px !important;
+    height: 150px !important;
+}
+.soloapply .s_slidebox{
+    display: none;
+}
+/* 独家提供效果现实 */
+.soloapply .s_slidebox.on{
+    display: block;
+}
+.soloapply .soloapply_top .solosapply_lis.applyshow{
+    background-color: #ff6600;
+    color: #ffffff;
+}
+
+
+
+/* 猜你喜欢区域 */
+.likebook{
+    margin-top: 40px;
+}
+.likebook>h4{
+    height: 44px;
+    /* background-color: green; */
+    box-sizing: border-box;
+    border-bottom: 6px solid #ff6600;
+	font-size: 22px;
+	font-weight: normal;
+    color: #333333;
+    line-height: 44px;
+}
+.likebook>h4>p{
+    display: inline-block;
+    margin-left: 996px;
+}
+.likebook>h4>p>span{
+    font-size: 18px;
+    color: #468bfd;
+}
+.likebook .likebook_center{
+    height: 481px;
+    padding: 0px 27px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #333333;
+}
+.likebook .likebook_center>li{
+    width: 170px;
+    height: 220px;
+    /* background-color: rgb(85, 180, 224); */
+    box-sizing: border-box;
+    float: left;
+    margin: 18px 25px 0px 0px;
+    padding: 0px 10px;
+}
+.likebook .likebook_center>li:nth-of-type(6n){
+    margin-right: 0px;
+}
+.likebook .likebook_center>li>p:nth-of-type(2){
+    color: #808080;
+}
+.likebook_center>li>span{
+    font-size: 18px;
+    margin-right: 11px;
+    color: #b3b3b3;
+    text-decoration: line-through;
+}
+.likebook_center>li>span:nth-of-type(1){
+    color: #f91616;
+    text-decoration: none;
+}	
+.likebook_bottom{
+    margin: 31px 0px 14px;
+}
+.likebook_bottom>img{
+    width: 196px;
+    height: 113px;
+}
+.likebook_picture{
+    height: 90px;
+}
+.likebook_picture>img{
+    width: 1200px;
+    height: 90px;
+}
+/* 设置盒子溢出隐藏 */
+.likebook .likebookbox{
+    height: 481px;
+    border-bottom: solid 2px #e6e6e6;
+    overflow: hidden;
+    position: relative;
+}
+.likebook .likebookbox .movebox{
+    /* 以父盒子进行定位，让top方位词来现实每一个
+    movebox的ul在点击换一批的时候出现对于的ul */
+    position: absolute;
+    top: 0;
+}
+/* foot区域 */
+.foot{
+    margin-top: 0px;
+}

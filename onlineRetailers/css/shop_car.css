@@ -1,0 +1,235 @@
+/* nav区域 */
+.nav{
+    height: 88px;
+}
+.nav .nav_top{
+    height: 77px;
+    width: 443px;
+    margin-top: 8px;
+}
+.nav .nav_top .btnSearch{
+    margin-right: 0px;
+}
+.nav .nav_top select{
+    width: 171px;
+    height: 22px;
+    background-color: #ffffff;
+    border: solid 1px #d9d9d9;
+    outline: none;
+    font-size: 14px;
+    line-height: 32px;
+    color: #4d4d4d;
+    box-sizing: border-box;
+    padding-left: 7px;
+    margin-top: 14px;
+}
+.nav .nav_top>span{
+    margin: 0px 9px 0px 205px;
+    font-size: 14px;
+    color: #4d4d4d;
+    margin-top: 14px;
+}
+/* 订单区域 */
+.order{
+    height: 618px;
+    margin-top: 24px    ;
+}
+.order .order_title{
+    font-size: 20px;
+    color: #666666;
+}
+.order .order_num>li{
+    box-sizing: border-box;
+    padding-left: 23px;
+    margin-bottom: 21px;
+    height: 185px;
+    border-bottom: 2px solid #e6e6e6;
+    font-size: 16px;
+    color: #4d4d4d;
+}
+.order .order_num>li:first-child{
+    height: 85px;
+    box-sizing: border-box;
+    border-bottom: 6px solid #dfdfdf;
+    padding-bottom:25px;
+    padding-left: 0px;
+}
+.order .order_num li:first-child input{
+    margin-right: 6px;
+}
+.order .order_num  input{
+    width: 18px;
+    height: 18px;
+    background-color: #f5f5f5;
+    border: solid 1px #cccccc;
+}
+.order .order_num li:first-child>div{
+    height: 60px;
+    line-height: 60px;
+    background-color: #f2f2f2;
+    box-sizing: border-box;
+    padding-left: 23px;
+}
+.order .order_num li span{
+    font-size: 16px;
+    color: #4d4d4d;
+    margin-right: 128px;
+    font-size: 18px;
+}
+.order .order_num li span:last-child{
+    margin-right: 0px;
+}
+.order .order_num li:first-child div span:nth-of-type(1){
+    margin-right: 333px;
+    margin-left: 82px;
+}
+.order_num .on_right{
+    display: inline-block;
+}
+.order_num .on_right .ord_span1{
+    margin-right: 223px;
+}
+.order_num .on_right .btn{
+    width: 26px;
+    height: 26px;
+    color: #4d4d4d;
+}
+.order .order_num>li .reducebtn{
+    cursor: not-allowed;
+}
+.order_num .on_right .text{
+    width: 74px;
+    height: 26px;
+    text-align: center;
+    color: #4d4d4d;
+}
+.order_num .on_right .ord_span2{
+    margin-right: 75px;
+}
+.order_num .on_right .ord_span3{
+    margin-left: 63px;
+    margin-right: 112px;
+}
+.order_num .on_right .ord_span4{
+    margin-right: 30px;
+}
+.order_num .on_right li:last-child{
+    font-size: 16px;
+    color: #4d4d4d;
+    text-align: right;
+}
+.order_num>li>input,.order_num>li>img,.on_right{
+    vertical-align: top;
+    margin-top: 21px;
+}
+.order_num li:last-child{
+    height: 60px;
+    padding-left: 0px;
+    border: none;
+}
+.order_num li:last-child div{
+    box-sizing: border-box;
+    display: inline-block;
+    height: 60px;
+    width: 1072px;
+    border: solid 1px #cccccc;
+    border-right: none;
+    padding-left: 23px;
+    line-height: 60px;
+}
+.order_num li:last-child>input{
+    width: 128px;
+    height: 60px;
+    background-color: #ff6600;
+    border-radius: 2px;
+    margin-top: 0px;
+    border: none;
+}
+.order_num li:last-child div .last_span1{
+    margin: 0px 500px 0px 33px;
+}
+.order_num li:last-child div .last_spancolor{
+    color: #ff6600;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+.order_num li:last-child div .last_span2{
+    margin-right: 50px;
+}
+.order_num li:last-child div .last_span3{
+    margin-right: 9px;
+}
+/* 猜你喜欢区域 */
+.like{
+    margin-top: 37px;
+}
+.like .likeTop{
+    box-sizing: border-box;
+    height: 53px;
+    border-bottom: 6px solid #ff6600;
+}
+.like .likeTop li{
+    width: 124px;
+    background-color: #ff6600;
+    font-size: 24px;
+    height: 53px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 47px;
+}
+.like .likeBottom{
+    height: 258px;
+    box-sizing: border-box;
+    padding: 0px 21px;
+}
+.like .likeBottom li{
+    width: 210px;
+    height: 258px;
+    float: left;
+    margin-right: 27px;
+}
+.like .likeBottom li:last-child{
+    margin-right: 0px;
+}
+.likeBottom li>img:nth-child(1){
+    margin: 7px 30px 0px;
+}
+.likeBottom li>p{
+    font-size: 14px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    line-height: 22px;
+}
+.likeBottom li>span{
+    font-size: 24px;
+}
+.likeBottom li>p:nth-of-type(1){ 
+    color: #333333;
+}
+.likeBottom .lB_color{
+    color: #f4290d;
+}
+.likeBottom li>span:nth-of-type(1){
+    padding-left: 10px;
+    margin-right: 22px;
+}
+.likeBottom li>span:nth-of-type(2){
+    color: #c0c0c0;
+    text-decoration: line-through;
+}
+.likeBottom li:hover{
+    background-color: #f2f2f2;
+}
+/* picture区域 */
+.picture{
+    height: 90px;
+    margin-top: 90px;
+}
+.picture>img{
+    width: 1200px;
+    height: 90px;
+}
+/* footer区域 */
+.foot{
+    margin-top: 0px;
+}
