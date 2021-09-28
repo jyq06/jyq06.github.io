@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 引入jQ库 -->
+    <script src="./lib/jquery-1.11.0.js"></script>
+    <!-- 注册页面 JS -->
+    <script src="./js/register.js"></script>
+    <!-- 公共样式 -->
+    <link rel="stylesheet" href="css/common.css">
+    <!-- reset清除样式 -->
+    <link rel="stylesheet" href="css/reset.css">
+    <!-- 头部尾部公共样式 -->
+    <link rel="stylesheet" href="css/headFootCommon.css">
+    <!-- 注册样式 -->
+    <link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+    <!-- 头部开始 -->
+    <header class="head">
+        <div class="center clearfix header">
+            <img src="img/20210922160408.png" alt="加载失败">
+            <div class="head_left fl">legochina.cn</div>
+            <div class="head_right fr">欢迎光临<span>乐购</span> ，请 登陆\<span>注册</span></div>
+        </div>
+    </header>
+    <!-- 头部结束 -->
+    <!-- 导航开始 -->
+    <nav class="nav">
+        <ul class="center">
+            <li>欢迎登陆</li>
+            <li>已有账号，请<a href="">登录</a></li>
+        </ul>
+    </nav>
+    <!-- 导航结束 -->
+    <!-- 注册信息开始 -->
+    <section class="register_info center">
+        <form action="#">
+            <ul>
+                <li>
+                    <div>
+                        用户名&emsp;
+                        <input type="text" name="userName" id="userName" placeholder="您的账户名和登录名">
+                    </div>
+                    <p></p>
+                </li>
+                <li>
+                    <div>
+                        设置密码
+                        <input type="password" name="psw" id="psw" placeholder="建议设置两种字符密码">
+                    </div>
+                    <p></p>
+                </li>
+                <li>
+                    <div>
+                        确认密码
+                        <input type="password" name="sPsw" id="sPsw" placeholder="再次输入密码">
+                    </div>
+                    <p></p>
+                </li>
+                <li>
+                    <div>
+                        中国+86
+                        <input type="tel" name="tel" id="tel" placeholder="建议使用常用手机号">
+                    </div>
+                    <p></p>
+                </li>
+                <li>
+                    <div>
+                        验证码&emsp;
+                        <input type="tel" name="verCode" id="verCode" placeholder="请输入验证码">
+                        <span class="verificationCode">4E7R</span>
+                    </div>
+                    <p></p>
+                </li>
+                <li class="phone_code">
+                    <div>
+                        手机验证码
+                        <input type="tel" name="telVerCode" id="telVerCode" placeholder="输入手机验证码">
+                        <span class="verificationCode phone_vc">获取验证码</span>
+                    </div>
+                </li>
+                <li class="read">
+                    <input type="checkbox" name="" id="">
+                    我已阅读并同意 <span>《京东用户注册协议》</span>
+                </li>
+                <li>
+                    <input type="submit" name="" id="" value="立即注册">
+                </li>
+            </ul>
+        </form>
+    </section>
+    <!-- 注册信息结束 -->
+    <!-- footer开始 -->
+    <footer class="foot">
+        <ul class="foot_total center">
+            <li>
+                <ul class="foot_bottom1">
+                    <li>公司简介</li>
+                    <li>Investor Relations</li>
+                    <li>网站联盟</li>
+                    <li>乐购招商</li>
+                    <li>机构销售</li>
+                    <li>手机乐购</li>
+                    <li>官方Blog</li>   
+                    <li>热词搜索</li>
+                </ul>
+            </li>
+            <li>
+                Copyright (C) 乐购网 2004-2016, All Rights Reserved
+            </li>
+        </ul>
+    </footer>
+    <!-- footer结束 -->
+</body>
+</html>

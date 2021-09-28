@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 数据 -->
+    <script src = "js/data.js"></script>
+    <!-- js文件引入 -->
+    <script src="./lib/jquery-1.11.0.js"></script>
+    <script src="./lib/slider.js"></script>
+    <script src="./js/product_list.js"></script>
+    <!-- 公共样式 -->
+    <link rel="stylesheet" href="css/common.css">
+    <!-- reset清除样式 -->
+    <link rel="stylesheet" href="css/reset.css">
+    <!-- jQ轮播样式 -->
+    <link rel="stylesheet" href="./css/slider.css">
+    <!-- 头部和底部样式 -->
+    <link rel="stylesheet" href="css/headFootCommon.css">
+    <!-- 首页样式 -->
+    <link rel="stylesheet" href="css/product_list.css">
+</head>
+<body>
+     <!-- 头部开始 -->
+     <header class="head">
+        <div class="center clearfix header">
+            <img src="img/logo.jpg" alt="加载失败">
+            <div class="head_left fl">legochina.cn</div>
+            <div class="head_right fr">欢迎光临<span>乐购</span> ，请 登陆\<span>注册</span></div>
+        </div>
+    </header>
+    <!-- 头部结束 -->
+    <!-- 导航开始 -->
+    <nav class="center clearfix">
+        <form class="nav_top fr">
+            <input type="text" name="" id="search" placeholder="创意文具">
+            <input type="button" name="" id="" class="btnSearch">
+            <input type="text" name="" id="order" placeholder="我的订单">
+            <div class="btnSearch btnShop">购物车&nbsp;3</div>
+        </form>
+        <ul class="nav_bottom fr">
+            <li>图书</li>
+            <li>电子书</li>
+            <li>原创文学</li>
+            <li>服装</li>
+            <li>运动户外</li>
+            <li>孕婴室</li>
+            <li>家居</li>
+            <li>创意文具</li>
+            <li>海外购</li>
+            <li>电器城</li>
+        </ul>
+    </nav>
+    <!-- 导航结束 -->
+    <!-- banner开始 -->
+    <section class="banner center clearfix">
+         <!--轮播开始-->
+		<div class="pptbox" id="bannerBox">
+			<!--轮播的内容-->
+			<ul class="innerwrapper">
+				<li>
+					<a href="#"><img src="img/banner1.jpg" /></a>
+				</li>
+				<li>
+					<a href="#"><img src="img/banner2.jpg" /></a>
+				</li>
+				<li>
+					<a href="#"><img src="img/banner3.jpg" /></a>
+				</li>
+				<li>
+					<a href="#"><img src="img/banner4.jpg" /></a>
+				</li>
+				<li>
+					<a href="#"><img src="img/banner5.jpg" /></a>
+				</li>
+			</ul>
+			<!--数字控制器-->
+			<ul class="controls">
+				<li class="current">1</li>
+				<li>2</li>
+				<li>3</li>
+				<li>4</li>
+				<li>5</li>
+			</ul>
+			<!--按钮控制器-->
+			<span class="btnleft"></span>
+            <span class="btnright"></span> 
+        </div>
+        <!-- 右边图书区域 -->
+        <div class="fr">
+            <h2>热 卖 畅 销</h2>
+            <ul class="banner_right">
+                
+                <li class="active">
+                    <p><span class="br_color">1</span></p>
+                    <img src="img/23579654-1_l.jpg" alt="失败">
+                    <p>《三体》刘慈欣
+                        一场科幻的史诗
+                        风暴</p>
+                </li>
+                <li>
+                    <p><span class="br_color">2</span></p>
+                    <img src="img/index08_05.jpg" alt="失败">
+                    <p>《三体》刘慈欣
+                        一场科幻的史诗
+                        风暴</p>
+                </li>
+                <li>
+                    <p><span class="br_color">3</span></p>
+                    <img src="img/index08_05.jpg" alt="失败">
+                    <p>《三体》刘慈欣
+                        一场科幻的史诗
+                        风暴</p>
+                </li>
+                <li>
+                    <p><span>4</span></p>
+                    <img src="img/index08_05.jpg" alt="失败">
+                    <p>《三体》刘慈欣
+                        一场科幻的史诗
+                        风暴</p>
+                </li>
+                <li>
+                    <p><span>5</span></p>
+                    <img src="img/index08_05.jpg" alt="失败">
+                    <p>《三体》刘慈欣
+                        一场科幻的史诗
+                        风暴</p>
+                </li>
+                <li>
+                    <p><span>6</span></p>
+                    <img src="img/index08_05.jpg" alt="失败">
+                    <p>《三体》刘慈欣
+                        一场科幻的史诗
+                        风暴</p>
+                </li>
+                <li>
+                    <p><span>7</span></p>
+                    <img src="img/index08_05.jpg" alt="失败">
+                    <p>《三体》刘慈欣
+                        一场科幻的史诗
+                        风暴</p>
+                </li>
+            </ul>
+        </div>       
+        <div class="banner_advertisement">
+            <img src="./img/20210921123322.png" alt="加载失败">
+        </div>
+    </section>
+    <!-- banner结束 -->
+    <!-- 图书折扣开始 -->
+    <section class="book center clearfix">
+        <ul class="bookTop">
+            <li>乐购·图书折扣区</li>
+        </ul>
+        <ul class="bookBottom clearfix">
+            <li>
+                <img src="img/22935553-1_l.jpg" alt="加载失败">
+                <img src="img/index05_18.jpg" alt="加载失败">
+                <p>白夜行  东野上吾</p>
+                <p class="lB_color">推荐：</p>
+                <span class="lB_color">￥:38</span><span>￥:58</span>
+            </li>
+            <li>
+                <img src="img/22935553-1_l.jpg" alt="加载失败">
+                <img src="img/index05_18.jpg" alt="加载失败">
+                <p>白夜行  东野上吾</p>
+                <p class="lB_color">推荐：</p>
+                <span class="lB_color">￥:38</span><span>￥:58</span>
+            </li>
+            <li>
+                <img src="img/22935553-1_l.jpg" alt="加载失败">
+                <img src="img/index05_18.jpg" alt="加载失败">
+                <p>白夜行  东野上吾</p>
+                <p class="lB_color">推荐：</p>
+                <span class="lB_color">￥:38</span><span>￥:58</span>
+            </li>
+            <li>
+                <img src="img/22935553-1_l.jpg" alt="加载失败">
+                <img src="img/index05_18.jpg" alt="加载失败">
+                <p>白夜行  东野上吾</p>
+                <p class="lB_color">推荐：</p>
+                <span class="lB_color">￥:38</span><span>￥:58</span>
+            </li>
+            <li>
+                <img src="img/22935553-1_l.jpg" alt="加载失败">
+                <img src="img/index05_18.jpg" alt="加载失败">
+                <p>白夜行  东野上吾</p>
+                <p class="lB_color">推荐：</p>
+                <span class="lB_color">￥:38</span><span>￥:58</span>
+            </li>
+            <li>
+                <img src="img/22788959-1_l.jpg" alt="加载失败">
+                <img src="img/index05_18.jpg" alt="加载失败">
+                <p>白夜行  东野上吾</p>
+                <p class="lB_color">推荐：</p>
+                <span class="lB_color">￥:30</span><span>￥:46</span>
+            </li>
+            <li>
+                <img src="img/22788959-1_l.jpg" alt="加载失败">
+                <img src="img/index05_18.jpg" alt="加载失败">
+                <p>白夜行  东野上吾</p>
+                <p class="lB_color">推荐：</p>
+                <span class="lB_color">￥:30</span><span>￥:46</span>
+            </li>
+            <li>
+                <img src="img/22788959-1_l.jpg" alt="加载失败">
+                <img src="img/index05_18.jpg" alt="加载失败">
+                <p>白夜行  东野上吾</p>
+                <p class="lB_color">推荐：</p>
+                <span class="lB_color">￥:30</span><span>￥:46</span>
+            </li>
+            <li>
+                <img src="img/22788959-1_l.jpg" alt="加载失败">
+                <img src="img/index05_18.jpg" alt="加载失败">
+                <p>白夜行  东野上吾</p>
+                <p class="lB_color">推荐：</p>
+                <span class="lB_color">￥:30</span><span>￥:46</span>
+            </li>
+            <li>
+                <img src="img/22788959-1_l.jpg" alt="加载失败">
+                <img src="img/index05_18.jpg" alt="加载失败">
+                <p>白夜行  东野上吾</p>
+                <p class="lB_color">推荐：</p>
+                <span class="lB_color">￥:30</span><span>￥:46</span>
+            </li>
+        </ul>
+    </section>
+    <!-- 图书折扣结束 -->
+    <!-- 新书上架开始 -->
+    <section class="newbook center">
+        <div class="newbook_left fl">
+            <h4><span>新</span>书上架</h4>
+            <ul class="nbl_book">
+                <li>
+                    <img src="img/22928335-1_l.jpg" alt="加载失败">
+                    <p>查理 斯密斯</p>
+                    <p>中国邮电出版社</p>
+                    <span>￥49</span><span>￥79</span>
+                </li>
+                <li>
+                    <img src="img/22928335-1_l.jpg" alt="加载失败">
+                    <p>查理 斯密斯</p>
+                    <p>中国邮电出版社</p>
+                    <span>￥49</span><span>￥79</span>
+                </li>
+                <li>
+                    <img src="img/22928335-1_l.jpg" alt="加载失败">
+                    <p>查理 斯密斯</p>
+                    <p>中国邮电出版社</p>
+                    <span>￥49</span><span>￥79</span>
+                </li>
+                <li>
+                    <img src="img/22928335-1_l.jpg" alt="加载失败">
+                    <p>查理 斯密斯</p>
+                    <p>中国邮电出版社</p>
+                    <span>￥49</span><span>￥79</span>
+                </li>
+                <li>
+                    <img src="img/22928335-1_l.jpg" alt="加载失败">
+                    <p>查理 斯密斯</p>
+                    <p>中国邮电出版社</p>
+                    <span>￥49</span><span>￥79</span>
+                </li>
+                <li class="nb_marginttop">
+                    <img src="img/22913031-1_l.jpg" alt="加载失败">
+                    <p>查理 斯密斯</p>
+                    <p>中国邮电出版社</p>
+                    <span>￥49</span><span>￥79</span>
+                </li>
+                <li class="nb_marginttop">
+                    <img src="img/22913031-1_l.jpg" alt="加载失败">
+                    <p>查理 斯密斯</p>
+                    <p>中国邮电出版社</p>
+                    <span>￥49</span><span>￥79</span>
+                </li>
+                <li class="nb_marginttop">
+                    <img src="img/22913031-1_l.jpg" alt="加载失败">
+                    <p>查理 斯密斯</p>
+                    <p>中国邮电出版社</p>
+                    <span>￥49</span><span>￥79</span>
+                </li>
+                <li class="nb_marginttop">
+                    <img src="img/22913031-1_l.jpg" alt="加载失败">
+                    <p>查理 斯密斯</p>
+                    <p>中国邮电出版社</p>
+                    <span>￥49</span><span>￥79</span>
+                </li>
+                <li class="nb_marginttop">
+                    <img src="img/22913031-1_l.jpg" alt="加载失败">
+                    <p>查理 斯密斯</p>
+                    <p>中国邮电出版社</p>
+                    <span>￥49</span><span>￥79</span>
+                </li>
+            </ul>
+        </div>
+        <div class="book_right fr">
+            <h2>新书畅销榜</h2>
+            <ul>
+                <li class="book_show clearfix">
+                    <span>1</span>
+                    <h3 class="title_hidden">就喜欢你看不惯我  又干不掉我</h3>
+                    <div>
+                        <img src="img/index08_05.jpg" alt="加载失败">
+                        <p>从你的世界路过
+                            入选央视“2014中国好书”的80后作品！十年华语p小说，王家卫陈国富倾力推荐， 1500万次转发，p亿次阅读
+                        </p>
+                    </div>
+                </li>
+                <script>
+                    for(let i = 0;i<bookright_arr.length;i++){
+                        document.write(`
+                        <li class="clearfix">
+                            <span>${bookright_arr[i].num}</span>
+                            <h3>${bookright_arr[i].title}</h3>
+                            <div>
+                                <img src=${bookright_arr[i].img} alt="加载失败">
+                                <p>${bookright_arr[i].book_info}</p>
+                            </div>
+                    </li>
+                        `)
+                    }
+                </script>
+            </ul>
+        </div>
+    </section>
+    <!-- 新书上架结束 -->
+    <!-- 独家提供区域开始 -->
+    <section class="soloapply center newbook">
+        <ul class="soloapply_top clearfix">
+            <li>
+                <span class="title_span">独</span>家提供
+            </li>
+            <li class="solosapply_lis applyshow">社会文学</li>
+            <li class="solosapply_lis">教学参辅</li>
+            <li class="solosapply_lis">货币金融</li>
+        </ul>
+        <div class="s_slidebox on">
+            <!--轮播开始-->
+            <div class="pptbox" id="bannerBox">
+                <!--轮播的内容-->
+                <ul class="innerwrapper">
+                    <li>
+                        <ul class="nbl_book soloapply_bottom">               
+                            <script>
+                                for(let i = 0 ;i<12;i++){
+                                    document.write(`
+                                    <li>
+                                        <img src="img/23418061-1_l.jpg" alt="加载失败">
+                                        <p>查理 斯密斯</p>
+                                        <p>中国邮电出版社</p>
+                                        <span class="lB_color">￥:49</span><span>￥:79</span>
+                                    </li>
+                                    `)
+                                }
+                            </script>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="nbl_book soloapply_bottom">               
+                            <script>
+                                for(let i = 0 ;i<12;i++){
+                                    document.write(`
+                                    <li>
+                                        <img src="img/22788959-1_l.jpg" alt="加载失败">
+                                        <p>查理 斯密斯</p>
+                                        <p>中国邮电出版社</p>
+                                        <span class="lB_color">￥:49</span><span>￥:79</span>
+                                    </li>
+                                    `)
+                                }
+                            </script>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="nbl_book soloapply_bottom">               
+                            <script>
+                                for(let i = 0 ;i<12;i++){
+                                    document.write(`
+                                    <li>
+                                        <img src="img/xz2.jfif" alt="加载失败">
+                                        <p>查理 斯密斯</p>
+                                        <p>中国邮电出版社</p>
+                                        <span class="lB_color">￥:49</span><span>￥:79</span>
+                                    </li>
+                                    `)
+                                }
+                            </script>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="nbl_book soloapply_bottom">               
+                            <script>
+                                for(let i = 0 ;i<12;i++){
+                                    document.write(`
+                                    <li>
+                                        <img src="img/index08_05.jpg" alt="加载失败">
+                                        <p>查理 斯密斯</p>
+                                        <p>中国邮电出版社</p>
+                                        <span class="lB_color">￥:49</span><span>￥:79</span>
+                                    </li>
+                                    `)
+                                }
+                            </script>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="nbl_book soloapply_bottom">               
+                            <script>
+                                for(let i = 0 ;i<12;i++){
+                                    document.write(`
+                                    <li>
+                                        <img src="img/xz3.jfif" alt="加载失败">
+                                        <p>查理 斯密斯</p>
+                                        <p>中国邮电出版社</p>
+                                        <span class="lB_color">￥:49</span><span>￥:79</span>
+                                    </li>
+                                    `)
+                                }
+                            </script>
+                        </ul>
+                    </li>
+                </ul>
+                <!--数字控制器-->
+                <ul class="controls">
+                    <li class="current">1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
+                </ul>
+                <!--按钮控制器-->
+                <span class="btnleft"></span>
+                <span class="btnright"></span> 
+            </div>
+        </div>
+        <div class="s_slidebox">
+            <!--轮播开始-->
+            <div class="pptbox" id="bannerBox">
+                <!--轮播的内容-->
+                <ul class="innerwrapper">
+                    <li>
+                        <ul class="nbl_book soloapply_bottom">               
+                            <script>
+                                for(let i = 0 ;i<12;i++){
+                                    document.write(`
+                                    <li>
+                                        <img src="img/23418061-1_l.jpg" alt="加载失败">
+                                        <p>查理 斯密斯</p>
+                                        <p>中国邮电出版社</p>
+                                        <span class="lB_color">￥:49</span><span>￥:79</span>
+                                    </li>
+                                    `)
+                                }
+                            </script>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="nbl_book soloapply_bottom">               
+                            <script>
+                                for(let i = 0 ;i<12;i++){
+                                    document.write(`
+                                    <li>
+                                        <img src="img/22788959-1_l.jpg" alt="加载失败">
+                                        <p>查理 斯密斯</p>
+                                        <p>中国邮电出版社</p>
+                                        <span class="lB_color">￥:49</span><span>￥:79</span>
+                                    </li>
+                                    `)
+                                }
+                            </script>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="nbl_book soloapply_bottom">               
+                            <script>
+                                for(let i = 0 ;i<12;i++){
+                                    document.write(`
+                                    <li>
+                                        <img src="img/xz2.jfif" alt="加载失败">
+                                        <p>查理 斯密斯</p>
+                                        <p>中国邮电出版社</p>
+                                        <span class="lB_color">￥:49</span><span>￥:79</span>
+                                    </li>
+                                    `)
+                                }
+                            </script>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="nbl_book soloapply_bottom">               
+                            <script>
+                                for(let i = 0 ;i<12;i++){
+                                    document.write(`
+                                    <li>
+                                        <img src="img/index08_05.jpg" alt="加载失败">
+                                        <p>查理 斯密斯</p>
+                                        <p>中国邮电出版社</p>
+                                        <span class="lB_color">￥:49</span><span>￥:79</span>
+                                    </li>
+                                    `)
+                                }
+                            </script>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="nbl_book soloapply_bottom">               
+                            <script>
+                                for(let i = 0 ;i<12;i++){
+                                    document.write(`
+                                    <li>
+                                        <img src="img/xz3.jfif" alt="加载失败">
+                                        <p>查理 斯密斯</p>
+                                        <p>中国邮电出版社</p>
+                                        <span class="lB_color">￥:49</span><span>￥:79</span>
+                                    </li>
+                                    `)
+                                }
+                            </script>
+                        </ul>
+                    </li>
+                </ul>
+                <!--数字控制器-->
+                <ul class="controls">
+                    <li class="current">1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
+                </ul>
+                <!--按钮控制器-->
+                <span class="btnleft"></span>
+                <span class="btnright"></span> 
+            </div>
+        </div>
+        <div class="s_slidebox">
+            <!--轮播开始-->
+            <div class="pptbox" id="bannerBox">
+                <!--轮播的内容-->
+                <ul class="innerwrapper">
+                    <li>
+                        <ul class="nbl_book soloapply_bottom">               
+                            <script>
+                                for(let i = 0 ;i<12;i++){
+                                    document.write(`
+                                    <li>
+                                        <img src="img/23418061-1_l.jpg" alt="加载失败">
+                                        <p>查理 斯密斯</p>
+                                        <p>中国邮电出版社</p>
+                                        <span class="lB_color">￥:49</span><span>￥:79</span>
+                                    </li>
+                                    `)
+                                }
+                            </script>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="nbl_book soloapply_bottom">               
+                            <script>
+                                for(let i = 0 ;i<12;i++){
+                                    document.write(`
+                                    <li>
+                                        <img src="img/22788959-1_l.jpg" alt="加载失败">
+                                        <p>查理 斯密斯</p>
+                                        <p>中国邮电出版社</p>
+                                        <span class="lB_color">￥:49</span><span>￥:79</span>
+                                    </li>
+                                    `)
+                                }
+                            </script>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="nbl_book soloapply_bottom">               
+                            <script>
+                                for(let i = 0 ;i<12;i++){
+                                    document.write(`
+                                    <li>
+                                        <img src="img/xz2.jfif" alt="加载失败">
+                                        <p>查理 斯密斯</p>
+                                        <p>中国邮电出版社</p>
+                                        <span class="lB_color">￥:49</span><span>￥:79</span>
+                                    </li>
+                                    `)
+                                }
+                            </script>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="nbl_book soloapply_bottom">               
+                            <script>
+                                for(let i = 0 ;i<12;i++){
+                                    document.write(`
+                                    <li>
+                                        <img src="img/index08_05.jpg" alt="加载失败">
+                                        <p>查理 斯密斯</p>
+                                        <p>中国邮电出版社</p>
+                                        <span class="lB_color">￥:49</span><span>￥:79</span>
+                                    </li>
+                                    `)
+                                }
+                            </script>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="nbl_book soloapply_bottom">               
+                            <script>
+                                for(let i = 0 ;i<12;i++){
+                                    document.write(`
+                                    <li>
+                                        <img src="img/xz3.jfif" alt="加载失败">
+                                        <p>查理 斯密斯</p>
+                                        <p>中国邮电出版社</p>
+                                        <span class="lB_color">￥:49</span><span>￥:79</span>
+                                    </li>
+                                    `)
+                                }
+                            </script>
+                        </ul>
+                    </li>
+                </ul>
+                <!--数字控制器-->
+                <ul class="controls">
+                    <li class="current">1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
+                </ul>
+                <!--按钮控制器-->
+                <span class="btnleft"></span>
+                <span class="btnright"></span> 
+            </div>
+        </div>
+    </section>
+    <!-- 独家提供区域结束 -->
+    <!-- 猜你喜欢开始 -->
+    <section class="likebook center">
+        <h4><span class="title_span">猜</span>你喜欢
+            <p>
+                <img src="img/hyp.png" alt="加载失败">
+                <span>换一批</span>
+            </p>
+        </h4>
+        <div class="likebookbox">
+            <div class="movebox">
+                <ul class="likebook_center">
+                    <script>
+                        for(let i =0;i<6;i++){
+                            document.write(`
+                            <li>
+                                <img src="img/22790777-1_l_1.jpg" alt="加载失败">
+                                <p>查理 斯密斯</p>
+                                <p>中国邮电出版社</p>
+                                <span>￥49</span><span>￥79</span>
+                            </li>
+                            `)
+                        }
+                        for(let i =0;i<6;i++){
+                            document.write(`
+                            <li>
+                                <img src="img/22876893-1_l.jpg" alt="加载失败">
+                                <p>查理 斯密斯</p>
+                                <p>中国邮电出版社</p>
+                                <span>￥49</span><span>￥79</span>
+                            </li>
+                            `)
+                        }
+                    </script>
+                </ul>
+                <ul class="likebook_center">
+                    <script>
+                        for(let i =0;i<6;i++){
+                            document.write(`
+                            <li>
+                                <img src="img/22790777-1_l_1.jpg" alt="加载失败">
+                                <p>查理 斯密斯</p>
+                                <p>中国邮电出版社</p>
+                                <span>￥49</span><span>￥79</span>
+                            </li>
+                            `)
+                        }
+                        for(let i =0;i<6;i++){
+                            document.write(`
+                            <li>
+                                <img src="img/22876893-1_l.jpg" alt="加载失败">
+                                <p>查理 斯密斯</p>
+                                <p>中国邮电出版社</p>
+                                <span>￥49</span><span>￥79</span>
+                            </li>
+                            `)
+                        }
+                    </script>
+                </ul>
+                <ul class="likebook_center">
+                    <script>
+                        for(let i =0;i<6;i++){
+                            document.write(`
+                            <li>
+                                <img src="img/22790777-1_l_1.jpg" alt="加载失败">
+                                <p>查理 斯密斯</p>
+                                <p>中国邮电出版社</p>
+                                <span>￥49</span><span>￥79</span>
+                            </li>
+                            `)
+                        }
+                        for(let i =0;i<6;i++){
+                            document.write(`
+                            <li>
+                                <img src="img/22876893-1_l.jpg" alt="加载失败">
+                                <p>查理 斯密斯</p>
+                                <p>中国邮电出版社</p>
+                                <span>￥49</span><span>￥79</span>
+                            </li>
+                            `)
+                        }
+                    </script>
+                </ul>
+            </div>
+        </div>
+
+
+
+        <div class="likebook_bottom">
+            <img src="img/2016080314240628345.jpg" alt="加载失败">
+            <img src="img/2016080314240628345.jpg" alt="加载失败">
+            <img src="img/2016080314240628345.jpg" alt="加载失败">
+            <img src="img/2016080314240628345.jpg" alt="加载失败">
+            <img src="img/2016080314240628345.jpg" alt="加载失败">
+            <img src="img/2016080314240628345.jpg" alt="加载失败">
+        </div>
+        <div class="likebook_picture">
+            <img src="./img/20210921123322.png" alt="加载失败">
+        </div>
+    </section>
+    <!-- 猜你喜欢结束 -->
+    <!-- footer开始 -->
+    <footer class="foot">
+        <div class="foot_line">
+                <img src="img/222_11.png" alt="加载失败">
+                <img src="img/222_13(1).png" alt="加载失败">
+                <img src="img/222_15.png" alt="加载失败">
+                <img src="img/222_17.png" alt="加载失败">
+        </div>
+        <div class="foot_center center clearfix">
+            <ul class="foot_left fl">
+                <li>
+                    <ul>
+                    <li class="foot_leftTitle">购物指南</li>
+                    <li>购物流程</li>
+                    <li>发票制度</li>
+                    <li>账户管理</li>
+                    <li>会员优惠</li>
+                </ul>
+                </li>
+                <li>
+                    <ul>
+                        <li class="foot_leftTitle">支付方式</li>
+                        <li>货到付款</li>
+                        <li>网上支付</li>
+                        <li>礼品卡支付</li>
+                        <li>银行转帐</li>
+                    </ul>
+                </li>
+                <li>
+                    <ul>
+                        <li class="foot_leftTitle">订单服务</li>
+                        <li>订单配送查询</li>
+                        <li>订单状态说明</li>
+                        <li>自助取消订单</li>
+                        <li>自助修改订单</li>
+                    </ul>
+                </li>
+                <li>
+                    <ul>
+                        <li class="foot_leftTitle">退换货</li>
+                        <li>退换货政策</li>
+                        <li>自助申请退换货</li>
+                        <li>退换货进度查询</li>
+                        <li>退款方式和时间</li>
+                    </ul>
+                </li>
+                <li>
+                    <ul>
+                        <li class="foot_leftTitle">商家服务</li>
+                        <li>商家中心</li>
+                        <li>运营服务</li>
+                        <li>加入尾品汇</li>
+                    </ul>
+                </li>
+            </ul>
+            <img src="img/logo_00.png" alt="加载失败" fr>     
+        </div> 
+        <ul class="foot_bottom1 center">
+            <li>公司简介</li>
+            <li>Investor Relations</li>
+            <li>网站联盟</li>
+            <li>乐购招商</li>
+            <li>机构销售</li>
+            <li>手机乐购</li>
+            <li>官方Blog</li>   
+            <li>热词搜索</li>
+        </ul>
+        <p class="center">Copyright (C) 乐购网 2004-2016, All Rights Reserved</p>
+    </footer>
+    <!-- footer结束 -->
+</body>
+</html>
